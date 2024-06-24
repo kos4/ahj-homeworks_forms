@@ -1,0 +1,24 @@
+.tooltip {
+  position: absolute;
+
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+
+  background-color: #fff;
+}
+
+.tooltip__title {
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  text-align: center;
+  font-weight: bold;
+
+  background-color: #eee;
+}
+
+.tooltip__text {
+  padding: 5px;
+}

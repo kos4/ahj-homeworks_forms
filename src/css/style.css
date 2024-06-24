@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.form {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.form__group {
+  margin-bottom: 20px;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form__input-text {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form__button {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 5px;
+
+  font-size: 18px;
+
+  background-color: green;
+  color: white;
+
+  cursor: pointer;
+}
